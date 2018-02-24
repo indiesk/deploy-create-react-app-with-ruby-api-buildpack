@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Use architecture of multi-buildpack to compose behavior.
+# https://github.com/heroku/heroku-buildpack-multi
+cat <<EOF
+---
+addons: []
+default_process_types:
+  
+EOF

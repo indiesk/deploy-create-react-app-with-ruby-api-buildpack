@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+cp -a $1/client/build/. $1/public/
+echo "Deploy 'create-react-app' after handling static sites with 'heroku-buildpack-static'"
